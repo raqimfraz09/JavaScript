@@ -4,7 +4,7 @@ var accountPass = "12345"
 accountCity = "Noida"
 
 // accountId = 2  Cannot change.
-// {}  This is called as scope.
+// {}  This is called as  Block Scope.
 
 accountEmail = "fraz@gmail.com"
 accountPass = "2345678"

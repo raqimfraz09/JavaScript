@@ -17,3 +17,6 @@ let someNumber = 44
 let stringNumber = String(someNumber)
 console.log(stringNumber); // 44
 console.log(typeof stringNumber); // String
+
+
+
