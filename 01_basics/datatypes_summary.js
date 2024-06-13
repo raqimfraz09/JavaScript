@@ -24,7 +24,7 @@ const myFunction = function(){
     console.log("hello world");
 }
 
-console.log(typeof friend);
-console.log(typeof id);
-console.log(typeof myObj);
-console.log(typeof myFunction);
+// console.log(typeof friend);
+// console.log(typeof id);
+// console.log(typeof myObj);
+// console.log(typeof myFunction);

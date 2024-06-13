@@ -4,7 +4,7 @@ console.log(2 < 1)  //  False
 console.log(2 <= 1) // False
 console.log(2 != 1) // True
 
-console.log("2" > 1);
+console.log("2" > 1); 
 console.log("02" > 1);
 
 console.log(null > 0);   // false
