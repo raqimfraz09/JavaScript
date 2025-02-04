@@ -35,3 +35,17 @@ function RevString(str) {
 }
 
 console.log(RevString("RAQIM")); // Output: "MIQAR"
+
+// USING TWO POINTER APPROACH
+function Reverse(n){
+    let first = 0;
+    let last = n.length - 1;
+    while(first < last){
+        [n[first], n[last]] = [n[last], n[first]];
+        first++;
+        last--;
+    }
+    return n;
+}
+let rev = Reverse(["R","a","q","i","m","F","r","a","z"])
+console.log(rev);
