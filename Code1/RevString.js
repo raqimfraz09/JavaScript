@@ -49,3 +49,5 @@ function Reverse(n){
 }
 let rev = Reverse(["R","a","q","i","m","F","r","a","z"])
 console.log(rev);
+
+
