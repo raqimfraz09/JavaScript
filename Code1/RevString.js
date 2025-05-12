@@ -51,3 +51,12 @@ let rev = Reverse(["R","a","q","i","m","F","r","a","z"])
 console.log(rev);
 
 
+// REURSUION
+let str = "Hello"
+function reverse (str){
+    if(str === ""){
+        return str;
+    }
+    return reverse(str.substr(1)) + str[0]
+}
+console.log(reverse(str)); // Output: "olleH"
