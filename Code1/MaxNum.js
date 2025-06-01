@@ -8,4 +8,4 @@ function MaxNum(nums){
     return max;    
 }
 let arr = [1, 2, 3, 4, 5, 6, 7, 12, 9];
-console.log(MaxNum(arr)); // Output: 9
+console.log(MaxNum(arr)); // Output: 12
